@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# UPDATE ME SOON!
+# MUI + UXPin Merge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Integration of [MUI](https://mui.com/) with UXPin Merge Technology.
 
-## Available Scripts
+## About MUI
 
-In the project directory, you can run:
+MUI (formerly Material-UI) is the React UI library you always wanted. You can implement your own design system, or start with Material Design.
 
-### `npm start`
+## About UXPin Merge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Merge is a revolutionary technology that lets users import (and keep in sync) coded React.js components from GIT repositories to UXPin editor. 
+The imported components are 100% identical to components used by developers during the development process. 
+It means that components are going to look and, function (interactions, data) identical to the real product experienced by the users.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to use this boilerplate?
 
-### `npm test`
+1. Fork this repository and clone it to your computer.
+2. Install dependencies with `yarn install`
+3. Log in to your UXPin account
+4. Start Merge dev environment with `yarn run start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Supported components
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| COMPONENT                | STATUS         |
+| ------------------------ | -------------- |
+| Accordian                | ✓ Completed    |
+| Accordion Details        | ✓ Completed    |
+| Accordion Summary        | ✓ Completed    |
+| Alert                    | ✓ Completed    |
+| Alert Title              | ✓ Completed    |
+| App Bar                  | ✓ Completed    |
+| Auto Complete            | ✎ In Progress  |
+| Avatar                   | ✓ Completed    |
+| AvatarGroup              | ✓ Completed    |
+| Backdrop                 | ✓ Completed    |
+| Badge                    | ✓ Completed    |
+| Bottom Navigation        | ✓ Completed    |
+| Bottom Navigation Action | ✓ Completed    |
+| Box                      | ✓ Completed    |
+| Breadcrumbs              | ✓ Completed    |
+| Button                   | ✓ Completed    |
+| Button Group             | ✓ Completed    |
+| Card                     | ✓ Completed    |
+| Card Actions             | ✓ Completed    |
+| Card Actions Area        | ✓ Completed    |
+| Card Content             | ✓ Completed    |
+| Card Header              | ✓ Completed    |
+| Card Media               | ✓ Completed    |
+| Checkbox                 | ✓ Completed    |
+| Checkbox With Label      | ✓ Completed    |
+| Circular Progress        | ✓ Completed    |
+| Collapse                 | ✓ Completed    |
+| Container                | ✓ Completed    |
+| Date/Time (Input)        | ✎ In Progress  |
+| DatePicker (Input)       | ⚑ Experimental |
+| Dialog                   | ✓ Completed    |
+| Dialog Action            | ✓ Completed    |
+| Dialog Content           | ✓ Completed    |
+| Dialog Content Text      | ✓ Completed    |
+| Dialog Title             | ✓ Completed    |
+| Divider                  | ✓ Completed    |
+| Divider: Vertical        | ✓ Completed    |
+| Drawer                   | ✓ Completed    |
+| Floating Action Button   | ✓ Completed    |
+| Form Control Label       | ✓ Completed    |
+| Form Group               | ✓ Completed    |
+| FormControl              | ✓ Completed    |
+| FormControlGroup         | ⚑ Experimental |
+| FormHelperText           | ✓ Completed    |
+| FormLabel                | ✓ Completed    |
+| Grid                     | ✓ Completed    |
+| Grid List/ImageList      | ✓ Completed    |
+| Icon                     | ✓ Completed    |
+| Icon Button              | ✓ Completed    |
+| Image                    | ✓ Completed    |
+| Image List               | ✓ Completed    |
+| Image List Item          | ✓ Completed    |
+| Input label              | ✓ Completed    |
+| Linear Progress          | ✓ Completed    |
+| Link                     | ✓ Completed    |
+| List                     | ✓ Completed    |
+| List Item                | ✓ Completed    |
+| List Item Avatar         | ✓ Completed    |
+| List Item Button         | ✓ Completed    |
+| List Item Icon           | ✓ Completed    |
+| List Item Text           | ✓ Completed    |
+| List Sub Header          | ✓ Completed    |
+| Loading Button           | ✓ Completed    |
+| Menu                     | ✓ Completed    |
+| Menu Item                | ✓ Completed    |
+| Menu List                | ✎ In Progress  |
+| Pagination               | ⚑ Experimental |
+| Paper                    | ✓ Completed    |
+| Radio Button             | ✓ Completed    |
+| Rating                   | ✓ Completed    |
+| Select                   | ✓ Completed    |
+| Skeleton                 | ✓ Completed    |
+| Slider                   | ✓ Completed    |
+| Snackbar                 | ✓ Completed    |
+| Speed Dial               | ✎☏ In Progress |
+| Split Button             | ✓ Completed    |
+| Stack                    | ✓ Completed    |
+| Stepper                  | ✎ In Progress  |
+| Switch                   | ✓ Completed    |
+| Switch with Label        | ✓ Completed    |
+| Tab                      | ✓ Completed    |
+| Table                    | ✓ Completed    |
+| Table Body               | ✓ Completed    |
+| Table Cell               | ✓ Completed    |
+| Table Container          | ✓ Completed    |
+| Table Header             | ✓ Completed    |
+| Table Row                | ✓ Completed    |
+| Tabs                     | ✓ Completed    |
+| Textfield                | ✓ Completed    |
+| Toggle Button            | ✓ Completed    |
+| Toggle Button Group      | ✓ Completed    |
+| Tool Bar                 | ✓ Completed    |
+| Tooltip                  | ✓ Completed    |
+| Transfer List            | ✎☏ In Progress |
+| Typography               | ✓ Completed    |
