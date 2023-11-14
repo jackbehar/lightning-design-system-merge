@@ -5,8 +5,9 @@ export default (
   <Button
     uxpId="button"
     label="Button"
-    iconCategory="action"
-    name="add_contact"
+    variant="neutral"
     iconPosition="left"
+    iconCategory="standard"
+    iconName=""
 />
 );

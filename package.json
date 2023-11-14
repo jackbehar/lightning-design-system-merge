@@ -10,7 +10,7 @@
     "@mui/material": "^5.10.3",
     "@salesforce-ux/design-system": "^2.20.1",
     "@salesforce/design-system-react": "^0.10.50",
-    "@uxpin/merge-cli": "3.0.0",
+    "@uxpin/merge-cli": "^3.4.2",
     "babel-loader": "^9.1.2",
     "css-loader": "6.7.3",
     "eslint-config-react-app": "^7.0.1",

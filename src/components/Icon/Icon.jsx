@@ -2,14 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Icon as IconM } from '@salesforce/design-system-react';
 
-function IconBasic(props) {
-	console.log(IconM.propTypes)
+function Icon(props) {
 	return (
 		<IconM {...props} />
 	);
 }
 // ### Prop Types
-IconBasic.propTypes = {
+Icon.propTypes = {
 
 	/**
 	 * Icon category from [lightningdesignsystem.com/icons/](https://www.lightningdesignsystem.com/icons/)
@@ -104,4 +103,4 @@ IconBasic.propTypes = {
 };
 
 
-export default IconBasic;
+export default Icon;
